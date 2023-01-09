@@ -4,14 +4,10 @@ import { faAt, faBirthdayCake, faMobileAlt } from '@fortawesome/free-solid-svg-i
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'cv';
-  faAt = faAt;
+    faAt = faAt;
   birthday = faBirthdayCake;
   mobile = faMobileAlt;
-  constructor(){
-
-  }
 }

@@ -1,117 +1,153 @@
 <router-outlet></router-outlet>
 <div class="container">
-    <div class="alert alert-primary" role="alert" style="height: 225px">
-        <img src="/assets/img/image001.png" alt="" height="200px" width="auto" style="float: right" />
-        <h1 style="font-size: 50px;margin-top: 10px;">กิตติศักดิ์ อุดมทรัพย์</h1>
-        <h1 style="font-size: 30px;margin-top: 10px;">kittisak udomsab</h1>
+  <div class="alert alert-primary" role="alert" style="height: 225px">
+    <img
+      src="/assets/img/image001.png"
+      alt=""
+      height="200px"
+      width="auto"
+      style="float: right"
+    />
+    <h1 style="font-size: 50px; margin-top: 10px">กิตติศักดิ์ อุดมทรัพย์</h1>
+    <h1 style="font-size: 30px; margin-top: 10px">kittisak udomsab</h1>
+  </div>
+  <div class="alert alert-success" role="alert">
+    <h3>ข้อมูลทั่วไป</h3>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <fa-icon [icon]="birthday" style="font-size: 25px"></fa-icon>
     </div>
-    <div class="alert alert-success" role="alert">
-        <h3>ข้อมูลทั่วไป</h3>
+    <div class="col-8">1980</div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <fa-icon [icon]="faAt" style="font-size: 25px"></fa-icon>
     </div>
-    <div class="row">
-        <div class="col-4">
-            <fa-icon [icon]="faAt" style="font-size: 25px;"></fa-icon>
-        </div>
-        <div class="col-8">1980</div>
+    <div class="col-8">
+      <a href="mailto:sak1234@homail.com">sak1234@homail.com</a>
     </div>
-    <div class="row">
-        <div class="col-4">
-            <fa-icon [icon]="birthday" style="font-size: 25px"></fa-icon>
-        </div>
-        <div class="col-8">
-            <a href="mailto:sak1234@homail.com">sak1234@homail.com</a>
-        </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <fa-icon [icon]="mobile" style="font-size: 25px"></fa-icon>
     </div>
-    <div class="row">
-        <div class="col-4">
-            <fa-icon [icon]="mobile" style="font-size: 25px"></fa-icon>
-        </div>
-        <div class="col-8">
-            <a href="tel:+66815361289">081-536-1289</a>
-        </div>
+    <div class="col-8">
+      <a href="tel:+66815361289">081-536-1289</a>
     </div>
-    <div class="alert alert-success" role="alert">
-        <h3>ประวัติการศึกษา</h3>
+  </div>
+  <div class="alert alert-success" role="alert">
+    <h3>ประวัติการศึกษา</h3>
+  </div>
+  <div class="row">
+    <div class="col-4">2541-2545</div>
+    <div class="col-8">
+      ปริญญาตรี ม.ทักษิณ คณะมนุษยศาสตร์และสังคมศาสตร์ วิชาเอกเศรษฐศาสตร์ วิชาโท
+      สถิติคณิตศาสตร์ คอมพิวเตอร์
     </div>
-    <div class="row">
-        <div class="col-4">2541-2545</div>
-        <div class="col-8">
-            ปริญญาตรี ม.ทักษิณ คณะมนุษยศาสตร์และสังคมศาสตร์ วิชาเอกเศรษฐศาสตร์ วิชาโท สถิติคณิตศาสตร์ คอมพิวเตอร์
-        </div>
+  </div>
+  <div class="alert alert-success" role="alert">
+    <h3>ประสบการณ์การทำงาน</h3>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      ผู้จัดการแผนกสารสนเทศ <br />
+      2561-2563 <br />
+      CITY DATA ANALYTIC CO., LTD
     </div>
-    <div class="alert alert-success" role="alert">
-        <h3>ประสบการณ์การทำงาน</h3>
+    <div class="col-8">
+      <ul style="margin-left: -20px">
+        <li>
+          ดูแลและพัฒนา โปรเจค CDP (City Data Platform) ซึ่งเป็นโปรเจคเกี่ยวกับ
+          การนำเอาข้อมูลในพื้นที่มาวิเคราะและนำเสนอในรูปแบบต่าง ๆ เช่น
+          นำเสนอข้อมูลผ่านแผนที่
+          <a href="https://www.phuketdata.org">(http://www.phuketdata.org)</a>
+        </li>
+        <li>
+          สร้างระบบอ่านข้อมูลจากอินเตอร์เน็ต เพื่อนำข้อมูลจากสื่อสังคมออนไลน์
+          มาใช้การวิเคราห์ข้อมูล สถานที่ต่าง เช่น ข้อมูล
+          กิจการโรงแรมในจังหวัดภูเก็ต จากเว็บไซต์ tripadvisor และ ร้านอาหารจาก
+          Wongnai
+        </li>
+        <li>
+          ร่วมกับ สำนักสาธารณะสุขจังหวัด ภูเก็ต พัฒนาระบบบันทึกข้อมูลผู้ติดเชื้อ
+          โควิค 19 เพื่อตรวจสอบและติดตาม ผู้ติดเชื้อ
+        </li>
+      </ul>
     </div>
-    <div class="row">
-        <div class="col-4">
-            ผู้จัดการแผนกสารสนเทศ <br /> 2561-2563 <br /> CITY DATA ANALYTIC CO., LTD
-        </div>
-        <div class="col-8">
-            <ul style="margin-left: -20px">
-                <li>
-                    ดูแลและพัฒนา โปรเจค CDP (City Data Platform) ซึ่งเป็นโปรเจคเกี่ยวกับ การนำเอาข้อมูลในพื้นที่มาวิเคราะและนำเสนอในรูปแบบต่าง ๆ เช่น นำเสนอข้อมูลผ่านแผนที่
-                    <a href="https://www.phuketdata.org">(http://www.phuketdata.org)</a>
-                </li>
-                <li>
-                    สร้างระบบอ่านข้อมูลจากอินเตอร์เน็ต เพื่อนำข้อมูลจากสื่อสังคมออนไลน์ มาใช้การวิเคราห์ข้อมูล สถานที่ต่าง เช่น ข้อมูล กิจการโรงแรมในจังหวัดภูเก็ต จากเว็บไซต์ tripadvisor และ ร้านอาหารจาก Wongnai
-                </li>
-                <li>
-                    ร่วมกับ สำนักสาธารณะสุขจังหวัด ภูเก็ต พัฒนาระบบบันทึกข้อมูลผู้ติดเชื้อ โควิค 19 เพื่อตรวจสอบและติดตาม ผู้ติดเชื้อ
-                </li>
-            </ul>
-        </div>
-    </div>
+  </div>
 
-    <div class="row">
-        <div class="col-4">
-            ผู้จัดการแผนกสารสนเทศ <br /> 2550-2561 <br /> บริษัท ภูเก็ตโอเชี่ยนกรุ๊ป จำกัด
-        </div>
-        <div class="col-8">
-            <ul style="margin-left: -20px">
-                <li>ดูและระบบโปรแกรมบัญชีสำเร็จรูป (Business Plus)</li>
-                <li>ดูแลระบบเครือข่าย ระหว่างสาขา</li>
-                <li>
-                    พัฒนาโปรแกรมส่วนเสริมของโปรแกรมสำเร็จรูป เช่น โปรแกรมลงเวลาทำงานพนักงาน โปรแกรมนับสต๊อกสินค้า
-                </li>
-            </ul>
-        </div>
+  <div class="row">
+    <div class="col-4">
+      ผู้จัดการแผนกสารสนเทศ <br />
+      2550-2561 <br />
+      บริษัท ภูเก็ตโอเชี่ยนกรุ๊ป จำกัด
     </div>
-    <div class="alert alert-success" role="alert">
-        <h3>ภาษาที่ใช้ในการพัฒนา</h3>
+    <div class="col-8">
+      <ul style="margin-left: -20px">
+        <li>ดูและระบบโปรแกรมบัญชีสำเร็จรูป (Business Plus)</li>
+        <li>ดูแลระบบเครือข่าย ระหว่างสาขา</li>
+        <li>
+          พัฒนาโปรแกรมส่วนเสริมของโปรแกรมสำเร็จรูป เช่น
+          โปรแกรมลงเวลาทำงานพนักงาน โปรแกรมนับสต๊อกสินค้า
+        </li>
+      </ul>
     </div>
-    <div class="row">
-        <div class="col-4"></div>
-        <div class="col-8">
-            <ul style="margin-left: -20px">
-                <li>Php</li>
-                <li>JavaScript</li>
-                <li>Typescript</li>
-                <li>R language</li>
-                <li>Angular platform</li>
-                <li>Dart & Flutter</li>
-                <li>Node.js</li>
-                <li>Mssql</li>
-                <li>Mysql</li>
-                <li>Python</li>
-            </ul>
-        </div>
+  </div>
+  <div class="alert alert-success" role="alert">
+    <h3>ภาษาที่ใช้ในการพัฒนา</h3>
+  </div>
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-8">
+      <ul style="margin-left: -20px">
+        <li>Php</li>
+        <li>JavaScript</li>
+        <li>Typescript</li>
+        <li>R language</li>
+        <li>Angular platform</li>
+        <li>Dart & Flutter</li>
+        <li>Node.js</li>
+        <li>Mssql</li>
+        <li>Mysql</li>
+        <li>Python</li>
+      </ul>
     </div>
-    <div class="alert alert-success" role="alert">
-        <h3>การฝึกอบรมที่ผ่านมา</h3>
+  </div>
+  <div class="alert alert-success" role="alert">
+    <h3>การฝึกอบรมที่ผ่านมา</h3>
+  </div>
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-8">
+      <ul style="margin-left: -20px">
+        <li>App Inventor เขียนโปรแกรม Android ขั้นพื้นฐาน 2012</li>
+        <li>MTCNA (หลักสูตร MikroTik</li>
+        <li>Certified Network Associate) 2017</li>
+        <li>Google Cloud OnBoard Bangkok 2019</li>
+        <li>RESTful API with Node.js and Nest.js 2020</li>
+        <li>Practical Cloud Administration Microsoft Azure 2020</li>
+        <li>Super AI Engineer Thailand 2020 ประกาศนียบัตร Basic AI</li>
+        <li>
+          Super AI Engineer Thailand 2020 ประกาศนียบัตร AI Engineer เหรียญทองแดง
+        </li>
+      </ul>
     </div>
-    <div class="row">
-        <div class="col-4"></div>
-        <div class="col-8">
-            <ul style="margin-left: -20px">
-                <li>App Inventor เขียนโปรแกรม Android ขั้นพื้นฐาน 2012</li>
-                <li>MTCNA (หลักสูตร MikroTik</li>
-                <li>Certified Network Associate) 2017</li>
-                <li>Google Cloud OnBoard Bangkok 2019</li>
-                <li>RESTful API with Node.js and Nest.js 2020</li>
-                <li>Practical Cloud Administration Microsoft Azure 2020</li>
-                <li>Super AI Engineer Thailand 2020 ประกาศนียบัตร Basic AI</li>
-                <li>Super AI Engineer Thailand 2020 ประกาศนียบัตร AI Engineer เหรียญทองแดง</li>
-            </ul>
-        </div>
-    </div>
+  </div>
+</div>
+<!-- <footer>web-stie สร้างด้วย Angular framework มี source code อยู่ที่ <a href="https://github.com/ktss1234/cv">https://github.com/ktss1234/cv</a>
+     </footer> -->
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item">
+        สร้างด้วย Angular framework
+      </li>
+      <li class="nav-item">
+        source code <a href="https://github.com/ktss1234/cv">https://github.com/ktss1234/cv</a>
+      </li>
+
+    </ul>
+    <p class="text-center text-muted">© 2022 kittisak udomsab</p>
+  </footer>
 </div>
